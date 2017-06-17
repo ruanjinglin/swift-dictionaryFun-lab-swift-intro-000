@@ -37,7 +37,7 @@ class IcecreamTests: XCTestCase {
         XCTAssertEqual(testIcecream.favoriteFlavorsOfIceCream, namesAndFlavors, "Ice-cream dictionary is not created with the right key-value pairs.")
     }
     
-    
+  
     // 2.
     func testNamesForFlavorNaturalVanilla() {
         let vanillaNames = testIcecream.names(forFlavor: "Natural Vanilla")
